@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Resume :: Portfolio</title>
+    <title>My Resume :: Contact</title>
     <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/live-resume.css">
@@ -18,8 +18,8 @@
         <nav class="collapsible-nav" id="collapsible-nav">
             <a href="index.html" class="nav-link">HOME</a>
             <a href="resume.html" class="nav-link">RESUME</a>
-            <a href="#" class="nav-link active">PORTFOLIO</a>
-            <a href="contact.html" class="nav-link">CONTACT</a>
+            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+            <a href="#" class="nav-link active">CONTACT</a>
         </nav>
         <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
             data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
@@ -74,61 +74,63 @@
         </aside>
         <main>
             <section class="portfolio-section">
-                <h2 class="section-title">PORTFOLIO</h2>
+                <h2 class="section-title">CONTACT</h2>
                 
                 <div class="portfolio-wrapper">
-                    <figure class="portfolio-item hover-box">
-                        <img src="assets/images/img_1.png" alt="project" class="portfolio-item-img">
-                        <figcaption class="portfolio-item-details overlay">
-                            <h5 class="portfolio-item-title">PROJECT 01</h5>
-                            <p class="portfolio-item-description">Smart E-School, a learning Mangement system</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="portfolio-item hover-box">
-                        <img src="assets/images/img_2.png" alt="project" class="portfolio-item-img">
-                        <figcaption class="portfolio-item-details overlay">
-                            <h5 class="portfolio-item-title">PROJECT 02</h5>
-                            <p class="portfolio-item-description">Loan App named Uwezo Sacco</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="portfolio-item hover-box">
-                        <img src="assets/images/img_3.png" alt="project" class="portfolio-item-img">
-                        <figcaption class="portfolio-item-details overlay">
-                            <h5 class="portfolio-item-title">PROJECT 03</h5>
-                            <p class="portfolio-item-description">Ecommerce, an online buying and selling platform</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="portfolio-item hover-box">
-                        <img src="assets/images/img_4.png" alt="project" class="portfolio-item-img">
-                        <figcaption class="portfolio-item-details overlay">
-                            <h5 class="portfolio-item-title">PROJECT 04</h5>
-                            <p class="portfolio-item-description">Blog, a platform for interruction and learning</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="portfolio-item hover-box">
-                        <img src="assets/images/img_5.png" alt="project" class="portfolio-item-img">
-                        <figcaption class="portfolio-item-details overlay">
-                            <h5 class="portfolio-item-title">PROJECT 05</h5>
-                            <p class="portfolio-item-description">CV Master, an online platform that offers free templates that are used in CV.</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="portfolio-item hover-box">
-                        <img src="assets/images/img_6.png" alt="project" class="portfolio-item-img">
-                        <figcaption class="portfolio-item-details overlay">
-                            <h5 class="portfolio-item-title">PROJECT 06</h5>
-                            <p class="portfolio-item-description">Polling app, a web app that manages elections and voting</p>
-                        </figcaption>
-                    </figure>
+                    <div class="col-md-6">
+                        <p>
+                            Jeff Odhiambo <br>
+                            P.O. Box 00100 – 52106 <br>
+                            Nairobi, Kenya <br><br>
+                        </p>
+                        <p>
+                            Tel: <a href="tel:+254795067776">+254 795 067 776</a> <br>
+                            SMS: <a href="sms:+254795067776">+254 795 067 776</a> <br>
+                            Email: <a href="mailto:odhiambojeff415@gmail.com">odhiambojeff415@gmail.com</a> <br><br>
+                        </p>
+                        <p>
+                            Alternative: <br>
+                            Email: <a href="mailto:odhiambo.jeff1@students.jkuat.ac.ke">odhiambo.jeff1@students.jkuat.ac.ke</a> <br><br>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe src="" frameborder="0"></iframe>
+                    </div>
                 </div>
-
             </section>
+            <section class="testimonial-section">
+                <div id="testimonialCarousel" class="testimonial-carousel carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p class="testimonial-content"> <q>Jeff developed for me the best app have ever seen, The design increased my sales by 90%</q> </p>
+                            <img src="assets/images/undraw_profile.svg" alt="profile" class="testimonial-img">
+                            <p class="testimonial-name">Laurent Ouma</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="testimonial-content"><q>He taught me web development, and now am doing amaizing web apps.</q></p>
+                            <img src="assets/images/undraw_profile_1.svg" alt="profile" class="testimonial-img">
+                            <p class="testimonial-name">Daniel Ochieng</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="testimonial-content"><q>Jeff delivers quality, He never dissapoints. His web and android apps are my best</q></p>
+                            <img src="assets/images/undraw_profile_2.svg" alt="profile" class="testimonial-img">
+                            <p class="testimonial-name">Verlarie Sululu</p>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </section>
+
             <footer>&copy; JEFF ODHIAMBO PORTFOLIO 2022</footer>
         </main>
     </div>
     <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
     <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
     <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/entry/jq.entry.min.js"></script>
     <script src="assets/js/live-resume.js"></script>
 </body>
 
